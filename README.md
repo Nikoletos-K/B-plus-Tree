@@ -1,5 +1,7 @@
 # B-plus-Tree
 
+__Compile__: ```make```
+
 ### Project Description
 
 The main task of this project is the implementation of generic 2-field disk file, using B+ tree, based on a given BlockFile library. For better file management Access method - AM - functions were implemented. It supports string, integer and floating point data. Specifically, the functions asked:
@@ -16,3 +18,11 @@ The main task of this project is the implementation of generic 2-field disk file
 * ```AM_PrintError()``` : print the text shown by the errString parameter and then prints the message corresponding to the last error resulting from any of the AM level routines.
 * ```AM_Close()``` : destroy any data structures created.
 
+### Directories
+
+* **bin**: The code of the executables that are created.
+* **build**: Contains all object files created during compilation.
+* **include**: Contains all the header files project has. 
+* **lib**: Contains all the libraries you needed for project. It includes the libbf.so file, which is the library for the BF level.
+* **src**: The code files (.c) of the application.
+* **examples**: It contains a main file (bf_main.c) that uses the BF level as well as the main (main1.c, main2.c, main3.c) which use the AM level.
