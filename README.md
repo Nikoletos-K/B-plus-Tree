@@ -1,3 +1,8 @@
+![](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+
+---
+
 # B-plus-Tree
 
 __Compile__: ```make```
@@ -26,3 +31,7 @@ The main task of this project is the implementation of generic 2-field disk file
 * **lib**: Contains all the libraries you needed for project. It includes the libbf.so file, which is the library for the BF level.
 * **src**: The code files (.c) of the application.
 * **examples**: It contains a main file (bf_main.c) that uses the BF level as well as the main (main1.c, main2.c, main3.c) which use the AM level.
+
+---
+
+© Myrto Igglezou && Konstantinos Nikoletos
