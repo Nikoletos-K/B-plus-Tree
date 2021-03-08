@@ -34,4 +34,4 @@ The main task of this project is the implementation of generic 2-field disk file
 
 ---
 
-© Myrto Igglezou && Konstantinos Nikoletos
+© Myrto Iglezou && Konstantinos Nikoletos
